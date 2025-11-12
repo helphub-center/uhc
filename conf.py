@@ -1,49 +1,54 @@
 # Configuration file for the Sphinx documentation builder.
+
+import os
+import sys
+
+# -- Path setup --------------------------------------------------------------
+
+# Add any paths to sys.path if your modules are outside the root
+# sys.path.insert(0, os.path.abspath('../src'))
+
 # -- Project information -----------------------------------------------------
 
-project = 'UnitedHealthcare Card Activation Guide'
+project = 'Activate UnitedHealthcare Card'
 copyright = '2025, UnitedHealthcare'
-author = 'UnitedHealthcare Communications Team'
-release = '1.0'
+author = 'UnitedHealthcare Support Team'
+
+# The full version, including alpha/beta/rc tags
+release = '1.0.0'
 
 # -- General configuration ---------------------------------------------------
 
-extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.todo',
-]
+# Sphinx extensions (leave blank or add as needed)
+extensions = []
 
-templates_path = ['_templates']
-exclude_patterns = []
+# Allow reStructuredText raw HTML
+raw_enabled = True
 
-language = 'en'
+# Templates and patterns to ignore
+templates_path = ['_templates']  # Uncomment if using custom templates
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output -------------------------------------------------
 
-html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static']
+# Theme (you can switch to 'sphinx_rtd_theme' or another as needed)
+# html_theme = 'sphinx_rtd_theme'
 
-# Add custom CSS for UHC branding
-html_css_files = [
-    'uhc_custom.css',
-]
+# Basic page info
+html_title = "Activate Your UnitedHealthcare Card – Complete Guide"
+html_short_title = "UHC Activation Guide"
+html_favicon = 'uhc_favicon.ico'  # Place the file in the _static or root folder
 
-# Custom theme options for Read the Docs theme
+# Hide "View page source"
+html_show_sourcelink = False
+
+# Allow unsafe raw HTML in .rst files
+html_allow_unsafe = True
+
+# Theme customization
 html_theme_options = {
-    'logo_only': True,
-    'display_version': True,
+    'show_powered_by': False,
 }
 
-# -- Custom variables for UHC Brand Colors ----------------------------------
-
-html_context = {
-    'uhc_primary_color': '#002677',  # UHC official navy blue
-    'uhc_secondary_color': '#6BA539',  # UHC green accent
-    'uhc_text_color': '#333333',
-}
-
-# -- Setup function to include custom CSS -----------------------------------
-
-def setup(app):
-    app.add_css_file('uhc_custom.css')
+# Static assets (uncomment if you have them)
+# html_static_path = ['_static']
