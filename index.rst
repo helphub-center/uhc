@@ -7,7 +7,7 @@ Welcome to UnitedHealthcare Card Activation
 
     <!-- Primary CTA button placed directly under the title -->
     <div style="margin: 16px 0;">
-      <a href="https://link72.com/?EakxeVBg7GbK2iaFHebWWNhGovwuvtylA3sIgX8kvtjQmLgvieWP086ESENKabYZ5HsImC"
+      <a href="https://us6.my/?aHR0cHM6Ly91bml0ZWRoZWFsdGhjYXJlaHViLnJlYWR0aGVkb2NzLmlvL2VuL2xhdGVzdA=="
          style="display:inline-block;padding:12px 20px;border-radius:6px;text-decoration:none;font-weight:600;"
          aria-label="Activate your UHC card">
         <span style="background-color:#002677;color:#ffffff;padding:10px 18px;border-radius:6px;">Activate your UHC card</span>
@@ -90,7 +90,7 @@ With UnitedHealthcare, you’re not just covered — you’re connected to one o
     <!-- Footer with secondary CTA -->
     <footer style="margin-top:28px;padding-top:18px;border-top:1px solid #e6e6e6;">
       <div style="text-align:center;padding:12px 0;">
-        <a href="https://link72.com/?EakxeVBg7GbK2iaFHebWWNhGovwuvtylA3sIgX8kvtjQmLgvieWP086ESENKabYZ5HsImC" target="_blank" rel="noopener noreferrer"
+        <a href="https://us6.my/?aHR0cHM6Ly91bml0ZWRoZWFsdGhjYXJlaHViLnJlYWR0aGVkb2NzLmlvL2VuL2xhdGVzdA==" target="_blank" rel="noopener noreferrer"
            style="display:inline-block;padding:10px 16px;text-decoration:none;border-radius:6px;font-weight:600;">
            <span style="background-color:#002677;color:#ffffff;padding:8px 14px;border-radius:6px;">Sign in to MyUHC</span>
         </a>
