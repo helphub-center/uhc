@@ -1,0 +1,21 @@
+{# custom_layout.html - Extend default Sphinx HTML layout for UnitedHealthcare Activation Guide #}
+
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+    <meta name="google-site-verification" content="SfOIuzL9bJTnG1s15n1tw8mrW8WlYZXf4LA0cdqffuM" />
+    <meta name="msvalidate.01" content="671DFC03B959E91643B7D7567E37E46A" />
+    <meta name="description" content="Activate your UnitedHealthcare (UHC) card easily at activate.uhc.com. Learn how to register, manage benefits, find doctors, and access healthcare services using your UHC member card." />
+    <meta name="keywords" content="activate.uhc.com, UHC card activation, UnitedHealthcare login, UHC benefits, health insurance activation, myuhc, UHC member ID, UHC online account" />
+    <meta name="robots" content="index, follow" />
+    <title>Activate Your UnitedHealthcare Card at activate.uhc.com – Easy Step-by-Step Guide</title>
+    {{ super() }}
+{% endblock %}
+
+{% block footer %}
+    <footer class="uhc-footer" style="background-color:#002677;color:#fff;text-align:center;padding:20px;margin-top:30px;">
+        <p>© 2025 UnitedHealthcare. All rights reserved.</p>
+        <a href="https://www.uhc.com/legal" style="color:#6BA539;text-decoration:none;">Legal</a> |
+        <a href="https://www.uhc.com/privacy" style="color:#6BA539;text-decoration:none;">Privacy Policy</a>
+    </footer>
+{% endblock %}
